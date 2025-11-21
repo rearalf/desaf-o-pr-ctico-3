@@ -29,8 +29,9 @@
 </header>
 
 <body>
-    <div class="container d-flex align-items-center gap-3 mt-3">
-  <select id="categorias" class="form-select w-auto ">
+     <div class="container d-flex align-items-center gap-3 mt-3">
+    <h4 id="categoriaLabel">Categoría: Todos</h4>
+  <select id="categoriaSelect" onchange="actualizarCategoria()" class="form-select w-auto ">
       <option value="Categorias">Categorias</option>
       <option value="audifonos">Audífonos</option>
       <option value="monitor">Monitores</option>
