@@ -1,0 +1,42 @@
+footer{
+    background :linear-gradient(90deg, #d2c0aa,#77A8A8);
+    color: black;
+}
+header{
+    background :linear-gradient(90deg, #77A8A8,#d2c0aa);
+}
+.navbar{
+    background :linear-gradient(90deg, #d2c0aa,#77A8A8);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cartas{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height:auto;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+.verProducto{
+    background-color: cadetblue;      
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.add{
+    background-color: olivedrab;      
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
